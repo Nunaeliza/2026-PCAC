@@ -6,9 +6,9 @@ Estudante: Luana Eleza dos Santos
 # Objetivo: calcular o cnsumo de um automóvel em km/l
 
 # --- ANÁLISE (LIAC) ---
-# Entrada:
-# Processamento:
-# Saída: 
+# Entrada: um valor inteiro X representando a distância total percorrida (em km), e um valor real Y representando o total de combustível gasto
+# Processamento: consumo = X / Y
+# Saída: consumo com 3 casas decimais seguido de "km/l"
 
 # lê a distância total percorrida em km (tipo inteiro)
 X = int(input())
@@ -20,4 +20,4 @@ Y = float(input())
 consumo = X / Y
 
 # exibe o resultadocom 3 casas decimais e a unidade em km/l
-print(f"{consumo = X / Y 3:.f} km/1")
+print(f"{X / Y :.3f} km/1")
