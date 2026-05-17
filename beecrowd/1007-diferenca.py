@@ -18,4 +18,4 @@ D = int(input())
 # calcula a diferença dos produtos conforme a fórmula do enunciado
 dif = (A * B) - (C * D)
 
-print(f"DIFERENCA ={dif}")
+print(f"DIFERENCA = {dif}")
