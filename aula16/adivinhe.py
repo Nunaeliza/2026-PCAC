@@ -12,19 +12,19 @@ def jogar(maximo, chances):
     numero_secreto = random.randint(1, maximo)
     acertou = False
 
-while chances > 0 and not acertou:
-    palpite = int(input("Seu palpite (1 a " + str(maximo) + "):"))
+    while chances > 0 and not acertou:
+        palpite = int(input("Seu palpite (1 a " + str(maximo) + "):"))
 
-    if palpite == numero_secreto:
-        print("🎉 Acertou!")
-        acertou = True
-    elif palpite < numero_secreto:
-        print("📈 Muito baixo!")
-    else:
-        print("📉 Muito alto!")
+        if palpite == numero_secreto:
+            print("🎉 Acertou!")
+            acertou = True
+        elif palpite < numero_secreto:
+            print("📈 Muito baixo!")
+        else:
+            print("📉 Muito alto!")
 
-    chances = chances - 1
-    print("Chances restantes:", chances)
+        chances = chances - 1
+        print("Chances restantes:", chances)
 
     return acertou
 
