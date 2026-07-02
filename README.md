@@ -4,7 +4,7 @@ Repositório de atividades — Pensamento Computacional, Algoritmos e Programaç
 
 Repositório de atividades da disciplina Pensamento Computacional, Algoritmos e Programação.
 
-👤 Estudante: Seu Nome Completo
+👤 Estudante: Luana Eliza dos Santos
 
 📍 IFPR — Centro de Referência Ponta Grossa | 1º ano | 2026
 
