@@ -19,3 +19,11 @@ def ler_numero(mensagem, minimo, maximo):
     for n in range(minimo, maximo +1):
         numeros.append(str(n))
     return int(ler_opcao(mensagem, numeros))
+
+
+def ler_texto(mensagem):
+    resposta = input(mensagem + ": ").strip()
+    while resposta == "":
+        print("Nao pode ficar em branco! Tente de novo")
+        resposta = input(mensagem + ", ").strip()
+    return resposta
