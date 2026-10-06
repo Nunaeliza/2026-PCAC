@@ -12,8 +12,11 @@ int main() {
 
     while (x != y) {
         if (x < y) {
-            printf("\n")
+            printf("Crescente\n");
+        } else {
+            printf("Decrescente\n");
         }
+        scanf("%d %d", &x, &y);
     }
     return 0;
 }
