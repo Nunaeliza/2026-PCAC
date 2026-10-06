@@ -1,5 +1,5 @@
 /*
-Problema 1073 beecrowd
+Problema 1114 beecrowd
 Data: 2026.10.06
 Autor: Luana Eliza dos Santos
 */
