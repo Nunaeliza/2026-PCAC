@@ -1,0 +1,18 @@
+/*
+Problema 1078 beecrowd
+Data: 2026.09.29
+Autor: Luana Eliza dos Santos
+*/
+#include <stdio.h>
+
+int main() {
+    int n, i;
+
+    scanf("%d", &n);
+
+    for (i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", i, n, i * n);
+    }
+
+    return 0;
+}
