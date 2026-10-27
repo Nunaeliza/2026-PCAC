@@ -2,7 +2,7 @@
 * Disciplina: 2026-PCAP
 * Projeto   : Fliperama em C
 * Autor     : Luana Eliza dos Santos
-* LIAC      : Menu com validação
+* LIAC      : Menu com validação, cadastro de jogadores em vetores com contagem, um jogo que conta partidas por jogador e o cadastro salvo em arquivo na saida e relido na entrada.
 */
 #include <stdio.h>
 #include <string.h>
