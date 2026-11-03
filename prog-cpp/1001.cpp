@@ -2,7 +2,7 @@
 * Disciplina: 2026-PCAP
 * Problema  : beecrowd 1001 - Extremamente Basico
 * Autor     : Luana Eliza dos Santos
-* LIAC      : Le dois 
+* LIAC      : Le dois inteiros A e B, um por linha. Imprime a soma no formato "X = soma", com espacos em volta do sinal de igual.
 */
 #include <iostream>
 
