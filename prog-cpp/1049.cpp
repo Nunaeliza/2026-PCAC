@@ -35,7 +35,7 @@ int main() {
                 cout << "lagarta" << endl;
             }
         } else {
-            if (c == "hematogafo") {
+            if (c == "hematofago") {
                 cout << "sanguessuga" << endl;
             } else {
                 cout << "minhoca" << endl;
